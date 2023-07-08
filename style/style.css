@@ -1,11 +1,18 @@
 /*  font style */
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 .webtytle{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+header{
+    background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .comon-style{
     color: #FD6E0A;
@@ -39,4 +46,25 @@ nav li{
 nav ul li a{
     text-decoration: none;
     color: #474747;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0px 28px 0px 196px;
+}
+.banner .protfile-pic{
+    width: 552px;
+    height: 600px;
+}
+.children-banner {
+    width: 415px;
+    margin-right: 105px;
+}
+img.deblopar-picture {
+    position: absolute;
+    margin-top: -680px;
+    margin-left: 55px;
+    width: 73px;
 }
