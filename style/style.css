@@ -114,3 +114,24 @@ img.deblopar-picture {
     align-content: flex-end;
     padding: 10px 173px;
 }
+
+/* education skill */
+h1.resume-tytle {
+    text-align: center;
+    margin-top: 130px;
+}
+.education-part {
+    width: 434px;
+    padding: 0px 38px 30px 0px;
+}
+
+.main-part-education {
+    display: flex;
+    margin: 59px 0px 0px 280px;
+}
+.skill-detali {
+    color: #757575;
+}
+button#cv-buttom {
+    margin-left: 635px;
+}
