@@ -91,15 +91,18 @@ img.deblopar-picture {
     text-align: center;
     border-radius: 5px;
 }
-.name-part{
+
+.name-part {
     display: flex;
     justify-content: space-between;
 }
+
 .my-work {
     width: 793px;
     padding: 0px 0px 0px 238px;
     text-align: center;
 }
+
 .coding-name {
     width: 267px;
     height: 323px;
@@ -120,6 +123,7 @@ h1.resume-tytle {
     text-align: center;
     margin-top: 130px;
 }
+
 .education-part {
     width: 434px;
     padding: 0px 38px 30px 0px;
@@ -129,9 +133,46 @@ h1.resume-tytle {
     display: flex;
     margin: 59px 0px 0px 280px;
 }
+
 .skill-detali {
     color: #757575;
 }
+
 button#cv-buttom {
     margin-left: 635px;
+}
+
+/* footer part */
+.footer {
+    background: #FFF8F3;
+    padding: 130px 230px 150px 230px;
+    margin-top: 100px;
+    display: flex;
+    gap: 120px;
+}
+
+.footer-colam {
+    width: 50%;
+}
+
+.form-input input,
+textarea {
+    display: block;
+    padding: 10px;
+    margin: 12px;
+    width: 235px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.footer-icon img {
+    margin-right: 6px;
+}
+
+#footer-button {
+    margin-left: 10px;
+}
+
+.footer-messsage {
+    margin-left: 10px;
 }
